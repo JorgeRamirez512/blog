@@ -25,22 +25,12 @@ body {
     margin-top: 6px;
 }
 
-.top-movies {
-    border: 1px solid black;
-    height: 140px;
-    width: 360px;
-}
-
-.top-hobbies {
-    border: 1px solid black;
-    height: 140px;
-    width: 360px;
-}
-
+.top-movies,
+.top-hobbies,
 .goals {
     border: 1px solid black;
-    height: 140px;
-    width: 360px;
+    padding: 10px; /* Add some padding inside the border */
+    margin-bottom: 20px; /* Add some spacing between sections */
 }
 
 .flex-container {
@@ -55,6 +45,18 @@ body {
 
 .flex-container section {
     background-color: #F9F5EB;
+}
+
+@media (max-width: 768px) {
+    .flex-container {
+        flex-direction: column; /* Stack sections vertically on small screens */
+    }
+
+    .top-movies,
+    .top-hobbies,
+    .goals {
+        width: 100%; /* Take full width of the screen on small devices */
+    }
 }
 
 
