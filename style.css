@@ -1,0 +1,60 @@
+* {
+    font-family: Georgia;
+    box-sizing: border-box;
+}
+
+.header{
+    height: 100px;
+    background-color: #ED2B2A;
+}
+
+body {
+    margin: 0;
+    background-color: lightgray;
+}
+
+.title-jorge {
+    text-align: center;
+    width: 250px;
+    margin: 0px auto;
+    padding-top: 15px;
+}
+
+.month {
+    text-align: center;
+    margin-top: 6px;
+}
+
+.top-movies {
+    border: 1px solid black;
+    height: 140px;
+    width: 360px;
+}
+
+.top-hobbies {
+    border: 1px solid black;
+    height: 140px;
+    width: 360px;
+}
+
+.goals {
+    border: 1px solid black;
+    height: 140px;
+    width: 360px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 32px;
+}
+
+.h2header {
+    text-align: center;
+}
+
+.flex-container section {
+    background-color: #F9F5EB;
+}
+
+
