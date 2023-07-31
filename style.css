@@ -19,6 +19,7 @@ body {
     width: 250px;
     margin: 0px auto;
     padding-top: 15px;
+    font-style: italic;
 }
 
 .month {
@@ -29,6 +30,7 @@ body {
 .top-movies,
 .top-hobbies,
 .goals {
+    font-style: italic;
     border: 2px solid black;
     padding: 10px; /* Add some padding inside the border */
     margin-bottom: 20px; /* Add some spacing between sections */
