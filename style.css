@@ -27,10 +27,17 @@ body {
     margin-top: 6px;
 }
 
+.aboutme .h2header {
+    text-align: left;
+}
+
+.aboutme {
+    margin: 20px 0px 50px 10px;
+}
+
 .top-movies,
 .top-hobbies,
 .goals {
-    font-style: italic;
     border: 2px solid black;
     padding: 10px; /* Add some padding inside the border */
     margin-bottom: 20px; /* Add some spacing between sections */
@@ -44,6 +51,7 @@ body {
 
 .h2header {
     text-align: center;
+    font-style: italic;
 }
 
 .flex-container section {
