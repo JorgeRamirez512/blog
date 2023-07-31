@@ -4,7 +4,7 @@
 }
 
 .header{
-    height: 100px;
+    height: 7.5rem;
     background-color: hsl(112, 88%, 67%);
     border-bottom: 3px solid black;
 }
@@ -19,7 +19,7 @@ body {
     text-align: center;
     width: 250px;
     margin: 0px auto;
-    padding-top: 8px;
+    padding-top: 0.4em;
     font-style: italic;
 }
 
