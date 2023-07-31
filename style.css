@@ -1,24 +1,25 @@
 * {
-    font-family: Georgia;
+    font-family: rubik, Georgia;
     box-sizing: border-box;
 }
 
 .header{
     height: 100px;
-    background-color: hsl(3, 100%, 55%);
+    background-color: hsl(112, 88%, 67%);
     border-bottom: 3px solid black;
 }
 
 body {
     margin: 0;
     background-color: lightgray;
+    font-size: 18px;
 }
 
 .title-jorge {
     text-align: center;
     width: 250px;
     margin: 0px auto;
-    padding-top: 15px;
+    padding-top: 8px;
     font-style: italic;
 }
 
@@ -52,6 +53,8 @@ body {
 .h2header {
     text-align: center;
     font-style: italic;
+    font-weight: bolder;
+    font-size: 2rem;
 }
 
 .flex-container section {
