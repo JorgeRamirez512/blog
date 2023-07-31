@@ -5,7 +5,7 @@
 
 .header{
     height: 100px;
-    background-color: hsla(190, 81%, 70%, 0.5);
+    background-color: hsl(3, 100%, 55%);
     border-bottom: 2px double black;
 }
 
