@@ -61,7 +61,6 @@ body {
     background-color: #F9F5EB;
 }
 
-
 @media (max-width: 768px) {
     .flex-container {
         flex-direction: column; /* Stack sections vertically on small screens */
